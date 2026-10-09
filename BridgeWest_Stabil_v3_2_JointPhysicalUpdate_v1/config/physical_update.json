@@ -1,0 +1,26 @@
+{
+  "version": "Bridge West shaker-informed equivalent physical mass update v1",
+  "calibration_source": "2024/2025 shaker low-force modal frequencies and 2025 four-station shaker shapes only",
+  "residual_dynamic_participation_bounds": [0.40, 1.00],
+  "outer_redistribution_bounds": [0.00, 0.35],
+  "initial_residual_dynamic_participation": 0.58501716,
+  "initial_outer_redistribution_fraction": 0.14232127,
+  "calibration_number_of_modes": 30,
+  "mode_mapping_max_frequency_Hz": 15.0,
+  "minimum_top_line_participation": 0.15,
+  "max_function_evaluations": 40,
+  "objective_frequency_log_weight": 1.0,
+  "objective_shape_weight": 0.02,
+  "policy": "The sourced static total-mass inventory is not redefined. The update acts only on the dynamic FE mass matrix: a calibrated fraction of the residual nonstructural track/ballast mass participates in the shaker-frequency response, and a calibrated fraction of that participating mass is redistributed transversely from the tributary deck distribution to the two outer girder/deck lines while preserving every longitudinal x-slice mass. No 2022 or 2025 train strain, static weighing, target strain, or PLS displacement is used to identify these two parameters.",
+  "pilot_solution": {
+    "residual_dynamic_participation": 0.58501716,
+    "outer_redistribution_fraction": 0.14232127,
+    "effective_dynamic_total_mass_kg": 84023.7441,
+    "effective_dynamic_mass_fraction_of_nominal": 0.66859558,
+    "mapped_bending_mode_after_update": 5,
+    "mapped_torsion_mode_after_update": 8,
+    "updated_frequency_Hz": [6.5353000, 8.7608000],
+    "shaker_spatial_MAC": [0.99695424, 0.99858077],
+    "modal_residue_ratio_to_shaker": [0.96945112, 1.10850799]
+  }
+}

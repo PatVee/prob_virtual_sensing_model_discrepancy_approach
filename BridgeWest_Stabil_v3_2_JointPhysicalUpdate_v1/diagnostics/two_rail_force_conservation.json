@@ -1,0 +1,22 @@
+{
+  "rail_gauge_m": 1.435,
+  "longitudinal_half_length_m": 2.4,
+  "transverse_half_width_m": 0.6,
+  "wheel_fraction_of_bogie": 0.25,
+  "axle_fraction_of_bogie": 0.5,
+  "interior_two_axle_bogie_resultant_fraction": 1.0,
+  "rails": [
+    {
+      "rail_y_m": 0.9324999999999999,
+      "weight_sum": 1.0,
+      "weighted_y_m": 0.9464583333333332,
+      "active_nodes": 30
+    },
+    {
+      "rail_y_m": 2.3674999999999997,
+      "weight_sum": 0.9999999999999999,
+      "weighted_y_m": 2.353541666666666,
+      "active_nodes": 30
+    }
+  ]
+}

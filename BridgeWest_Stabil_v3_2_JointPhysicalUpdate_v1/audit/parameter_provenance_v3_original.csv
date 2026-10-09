@@ -1,0 +1,34 @@
+parameter,value,status,source_or_note
+length_m,18.4,documented,Thesis Fig.7.2: 1+16.4+1 m
+bearing_x_m,"[1.0, 17.4]",documented span; coordinate convention,Thesis Fig.7.2 and metadata ltw21_overview
+girder_y_m,"[0.0, 3.3]",documented,Metadata ltw21_overview: DT girder spacing 3.30 m
+flange_width_m,0.5,"assumed, not drawing verified","0.50m nominal. Metadata phrase 0.5 flange width describes gauge location, not a 0.5m dimension"
+girder_depth_m,1.3,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+web_thickness_m,0.014,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+flange_thickness_m,0.024,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+deck_z_m,0.3,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+deck_thickness_m,0.012,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+crossbeam_spacing_m,1.025,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+crossbeam_depth_m,0.3,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+crossbeam_width_m,0.18,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+crossbeam_web_m,0.01,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+crossbeam_flange_m,0.014,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+walkway_width_m,0.8,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+walkway_surface_mass_kg_m2,60.0,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+handrail_height_m,1.1,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+handrail_tube_diameter_m,0.05,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+handrail_tube_wall_m,0.004,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+E_Pa,210000000000.0,documented,"Thesis Table5.1, referred to for steel by Section7.2.3"
+nu,0.3,documented,Thesis Table5.1 steel
+specific_weight_N_m3,78500.0,documented,"Thesis Table5.1: specific weight, not mass density"
+g_m_s2,9.80665,conversion convention,Standard gravity; rho=78500/9.80665=8004.77 kg/m3
+mass_per_length_total_kg_m,6830.0,literature nominal aggregate,"Broetzmann2025 p152, Garather Bach equivalent model. Applied to full18.4m as declared assumption"
+top_foundation_N_m3,700000000.0,documented,"Thesis Section7.2.3, p111: 700000 kN/m3"
+top_patch_length_m,1.0,"assumed, not drawing verified",1m overhang patch; thesis does not specify patch area
+top_spring_direction,"""z""","assumed, not drawing verified",Normal z direction to horizontal top flange; longitudinal x case also tested
+max_dx_m,0.5125,numerical discretisation,Check results/mesh_tracking.csv
+max_dy_m,0.55,numerical discretisation,Check results/mesh_tracking.csv
+max_dz_m,0.325,numerical discretisation,Check results/mesh_tracking.csv
+include_walkway,true,assumed numerical geometry,No dimensioned section schedule supplied; provisional nominal input
+number_of_modes,180,numerical discretisation,Check results/mesh_tracking.csv
+bearing_scheme,"""four vertical restraints; BA at x=1 fixes x,y; BA at x=17.4 fixes y; rotations free""","idealisation, not verified bearing schedule",Pin/guided/free in-plane restraints to remove rigid motion; 4 vertical constraints and all rotations free

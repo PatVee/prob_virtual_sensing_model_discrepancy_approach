@@ -1,0 +1,21 @@
+scenario,thesis_mode,type,frequency_Hz,damping_percent,MPC,role,fe_index,fe_frequency_Hz,frequency_error_percent,assignment_status
+no_upper_flange_restraint,1,first bending,6.73,1.4,0.98,primary,3,4.91994282730704,-26.895351748780993,family-based candidate; measured MAC unavailable
+no_upper_flange_restraint,2,first torsion,8.99,0.9,0.98,primary,8,7.2659050142169,-19.177919752870977,family-based candidate; measured MAC unavailable
+no_upper_flange_restraint,3,second bending,16.14,3.6,0.84,primary,109,23.649936211329376,46.529964134630575,family-based candidate; measured MAC unavailable
+no_upper_flange_restraint,4,second torsion,18.68,3.0,0.93,primary,,,,unassigned
+no_upper_flange_restraint,5,undefined,24.13,3.2,0.54,diagnostic only; do not force assignment,,,,undefined in thesis; no automatic assignment
+longitudinal_upper_flange_restraint,1,first bending,6.73,1.4,0.98,primary,137,34.58291491049956,413.8620343313456,family-based candidate; measured MAC unavailable
+longitudinal_upper_flange_restraint,2,first torsion,8.99,0.9,0.98,primary,13,8.53447399413295,-5.0670300986323635,family-based candidate; measured MAC unavailable
+longitudinal_upper_flange_restraint,3,second bending,16.14,3.6,0.84,primary,,,,unassigned
+longitudinal_upper_flange_restraint,4,second torsion,18.68,3.0,0.93,primary,,,,unassigned
+longitudinal_upper_flange_restraint,5,undefined,24.13,3.2,0.54,diagnostic only; do not force assignment,,,,undefined in thesis; no automatic assignment
+half_length_patch,1,first bending,6.73,1.4,0.98,primary,3,5.178803867691289,-23.048976705924396,family-based candidate; measured MAC unavailable
+half_length_patch,2,first torsion,8.99,0.9,0.98,primary,8,7.668616737815432,-14.698367766235465,family-based candidate; measured MAC unavailable
+half_length_patch,3,second bending,16.14,3.6,0.84,primary,109,23.713227499368728,46.92210346572941,family-based candidate; measured MAC unavailable
+half_length_patch,4,second torsion,18.68,3.0,0.93,primary,,,,unassigned
+half_length_patch,5,undefined,24.13,3.2,0.54,diagnostic only; do not force assignment,,,,undefined in thesis; no automatic assignment
+refined_mesh,1,first bending,6.73,1.4,0.98,primary,3,5.146106662751422,-23.534819275610374,family-based candidate; measured MAC unavailable
+refined_mesh,2,first torsion,8.99,0.9,0.98,primary,6,7.684935860412663,-14.51684248706715,family-based candidate; measured MAC unavailable
+refined_mesh,3,second bending,16.14,3.6,0.84,primary,144,32.28718663003995,100.04452682800462,family-based candidate; measured MAC unavailable
+refined_mesh,4,second torsion,18.68,3.0,0.93,primary,,,,unassigned
+refined_mesh,5,undefined,24.13,3.2,0.54,diagnostic only; do not force assignment,,,,undefined in thesis; no automatic assignment

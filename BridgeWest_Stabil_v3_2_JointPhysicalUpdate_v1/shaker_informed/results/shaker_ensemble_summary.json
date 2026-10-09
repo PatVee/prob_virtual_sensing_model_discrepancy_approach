@@ -1,0 +1,117 @@
+{
+  "archive_records_total": 113,
+  "accepted_single_mode_fits_total": 72,
+  "accepted_single_mode_fits_2024": 47,
+  "accepted_single_mode_fits_2025": 25,
+  "genuine_joint_states_2024": 20,
+  "independent_product_states_2025": 64,
+  "production_weighted_states": 84,
+  "production_weighting": "0.5 total weight per shaker campaign; within each campaign 1/3 per excitation level; 2024 uses genuine same-run pairs; 2025 uses the product of empirical mode marginals within level because modes were measured in separate blocks.",
+  "baseline_policy": "Median of all accepted 5 m/s^2 fits for each mode. The weighted ensemble represents amplitude and campaign variation around this central low-force state.",
+  "baseline": {
+    "mode1_frequency_Hz": 6.535337366339091,
+    "mode2_frequency_Hz": 8.760832155940989,
+    "mode1_damping_ratio": 0.0163384492644782,
+    "mode2_damping_ratio": 0.013768392328554549,
+    "n_mode1_lowforce": 10,
+    "n_mode2_lowforce": 10
+  },
+  "weighted_mean": {
+    "f1_Hz": 6.461238022610601,
+    "f2_Hz": 8.725376007069297,
+    "zeta1": 0.01839833134218208,
+    "zeta2": 0.01947271037151756
+  },
+  "weighted_covariance": [
+    [
+      0.0035301411201444067,
+      0.004891763894752913,
+      -6.564179461725796e-05,
+      -4.3106082540898504e-05
+    ],
+    [
+      0.004891763894752913,
+      0.008718923805143875,
+      -5.362260667327753e-05,
+      6.682013634117759e-05
+    ],
+    [
+      -6.564179461725796e-05,
+      -5.362260667327753e-05,
+      2.2352837573212773e-06,
+      3.6443551661034502e-06
+    ],
+    [
+      -4.3106082540898504e-05,
+      6.68201363411776e-05,
+      3.6443551661034502e-06,
+      1.250826556671066e-05
+    ]
+  ],
+  "weighted_correlation": [
+    [
+      1.0,
+      0.8817348626785476,
+      -0.738955151849981,
+      -0.20513698870673253
+    ],
+    [
+      0.8817348626785476,
+      1.0,
+      -0.3841051671285136,
+      0.20233796118662578
+    ],
+    [
+      -0.738955151849981,
+      -0.3841051671285136,
+      0.9999999999999998,
+      0.6892167402018334
+    ],
+    [
+      -0.20513698870673253,
+      0.20233796118662584,
+      0.6892167402018334,
+      1.0
+    ]
+  ],
+  "ranges_all_weighted_states": {
+    "f1_Hz": [
+      6.333522116868062,
+      6.540213867575785
+    ],
+    "f2_Hz": [
+      8.521684892070711,
+      8.86909863196556
+    ],
+    "zeta1": [
+      0.0155169365353099,
+      0.021241259268855
+    ],
+    "zeta2": [
+      0.0131792582206883,
+      0.0244138755428591
+    ],
+    "lambda_scale_mode1": [
+      0.9391923787152927,
+      1.0014929055145454
+    ],
+    "lambda_scale_mode2": [
+      0.9461504981181462,
+      1.0248687461041235
+    ]
+  },
+  "stabil_mode_mapping": {
+    "first_global_bending_fe_index": 3,
+    "first_global_torsion_fe_index": 8,
+    "nominal_rebuild_frequency_Hz": [
+      5.211011589665426,
+      7.736400263217337
+    ],
+    "MAC_to_2025_four_station_shaker_shapes": [
+      0.998747,
+      0.996079
+    ],
+    "policy": "Mode shapes are retained; the two identified global modal eigenvalues and Rayleigh damping anchors are updated to each shaker state."
+  },
+  "interpretation": "A weighted empirical/modal uncertainty measure for discrepancy propagation. It is not a probability distribution of Young modulus or unique physical section stiffness."
+}

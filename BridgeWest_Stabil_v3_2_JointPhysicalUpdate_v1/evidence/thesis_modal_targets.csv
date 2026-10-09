@@ -1,0 +1,6 @@
+thesis_mode,type,frequency_Hz,damping_percent,MPC,role
+1,first bending,6.73,1.4,0.98,primary
+2,first torsion,8.99,0.9,0.98,primary
+3,second bending,16.14,3.6,0.84,primary
+4,second torsion,18.68,3.0,0.93,primary
+5,undefined,24.13,3.2,0.54,diagnostic only; do not force assignment

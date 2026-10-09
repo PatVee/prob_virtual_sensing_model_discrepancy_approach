@@ -1,0 +1,22 @@
+
+from pathlib import Path
+from plot_kw51_manuscript_figures import plot_kw51_manuscript_figures
+from plot_kw51_selected_event import plot_kw51_selected_event
+
+root = Path(__file__).resolve().parent
+output_root = root / "KW51ProbabilisticResults"
+
+#Plot all manuscript figures
+plot_kw51_manuscript_figures(
+    output_root,
+    visible=True
+)
+
+# Plot a selected passage
+event_number = 1   # 1, 2, 3, ...
+
+plot_kw51_selected_event(
+    output_root,
+    event_number,
+    visible=True
+)

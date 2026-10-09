@@ -1,0 +1,93 @@
+{
+  "runtime": "FE source executed in GNU Octave 8.4.0; independent numerical audit and mode matching in Python/SciPy",
+  "matrix_size": 8872,
+  "stiffness_diagonal_min": 19667.011507296367,
+  "stiffness_diagonal_max": 7.620622776404522e+17,
+  "mass_orthogonality_error": 2.9106652175791454e-14,
+  "eigen_residual": 5.317237250066543e-06,
+  "eigen_backward_error": 1.1541757881747538e-17,
+  "static_max_channel_relative_error": 1.5586359382185025e-05,
+  "static_audit_tolerance": 0.0001,
+  "static_errors_columns": [
+    "H0_track_A",
+    "H0_track_B",
+    "H2_track_A",
+    "H2_track_B",
+    "G"
+  ],
+  "static_channel_relative_errors": [
+    [
+      7.5551037456369055e-06,
+      5.156327494655113e-06,
+      1.4909328045216605e-07,
+      1.901298617366003e-07,
+      2.8531038714681594e-06
+    ],
+    [
+      1.5586359382185025e-05,
+      9.678011088469084e-06,
+      9.063877028954338e-08,
+      8.479912439705162e-08,
+      4.896843216567463e-06
+    ],
+    [
+      8.629737704132666e-06,
+      4.245476127072911e-06,
+      5.731791580728446e-07,
+      5.369710558443566e-07,
+      2.3676169123691157e-06
+    ],
+    [
+      7.995210069147928e-06,
+      1.2394161040080275e-05,
+      2.5836631213513465e-07,
+      2.894931327333896e-07,
+      4.77128937452541e-06
+    ],
+    [
+      3.6749250056354426e-06,
+      6.30007904469791e-06,
+      1.7592457709954263e-07,
+      1.867533943363909e-07,
+      1.5320120166228325e-06
+    ],
+    [
+      1.4543894181711927e-05,
+      1.0635955181926094e-05,
+      3.1471372655692777e-07,
+      2.7007250814106574e-07,
+      3.589156409786298e-06
+    ],
+    [
+      1.0185451785504303e-05,
+      1.2331922970279937e-05,
+      3.611196359128364e-07,
+      4.36538431490545e-07,
+      3.4035589600826036e-06
+    ]
+  ],
+  "scipy_octave_first_six_frequency_max_relative_difference": 2.9195848088038096e-06,
+  "matched_tracked_modes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "matched_FE_modes": [
+    1,
+    2,
+    3,
+    5,
+    4,
+    6
+  ],
+  "joint_modal_samples": 916,
+  "H0_H2_G_preserved_exactly": true,
+  "scope_excluded": [
+    "Native MATLAB execution",
+    "MATLAB graphics/table I/O",
+    "full 56-passage campaign validation"
+  ]
+}

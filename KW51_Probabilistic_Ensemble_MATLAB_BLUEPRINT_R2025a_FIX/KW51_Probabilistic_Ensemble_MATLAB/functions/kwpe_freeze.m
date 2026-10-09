@@ -1,0 +1,13 @@
+function kwpe_freeze(runFolder,inputs,bankFile,codeRoot)
+files=kw51_files(fullfile(runFolder,'predictions'),'_prediction\.mat$');
+files=[files;kw51_files(fullfile(runFolder,'draws'),'\.mat$'); ...
+    {inputs.input_file}.';{inputs.raw_file}.'; ...
+    {bankFile;fullfile(runFolder,'settings.mat');fullfile(runFolder,'settings.json'); ...
+    fullfile(runFolder,'input_catalog.mat');fullfile(codeRoot,'config.json')}];
+files=[files;kw51_files(codeRoot,'\.m$')];files=unique(files);hashes=cell(size(files));
+for k=1:numel(files),hashes{k}=kw51_sha256(files{k});end
+F=struct('files',{files},'hashes',{hashes},'created',datestr(now,30), ...
+    'note','Predictions completed before protected-output scoring; timestamp is local time.');
+kwpe_save_mat(fullfile(runFolder,'prediction_freeze.mat'),F);
+kw51_write_csv(fullfile(runFolder,'prediction_freeze.csv'),{'file','SHA256'},[files,hashes]);
+end

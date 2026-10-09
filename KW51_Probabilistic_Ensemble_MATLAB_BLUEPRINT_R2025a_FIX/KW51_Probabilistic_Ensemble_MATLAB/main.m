@@ -1,0 +1,36 @@
+% Native MATLAB: original ZIP archives -> fresh BLUEPRINT-BC ensemble inference -> validation.
+clc; clearvars; close all;
+
+root=fileparts(mfilename('fullpath'));
+addpath(root,fullfile(root,'functions'));
+
+% Place the ORIGINAL raw archives in data. Do not put a previous results ZIP here.
+dataSource=fullfile(root,'data');
+outputRoot=fullfile(root,'KW51ProbabilisticResults');
+
+if isempty(kw51_files(dataSource,'(?i)\.zip$')) && ...
+        isempty(kw51_files(dataSource,'^traindata_[0-9]{8}_[0-9]{6}\.mat$'))
+    [files,folder]=uigetfile('*.zip','Select original KW51 raw ZIP files','MultiSelect','on');
+    if isequal(files,0),error('No raw ZIP files selected.');end
+    if ischar(files),files={files};end
+    dataSource=cellfun(@(f)fullfile(folder,f),files,'UniformOutput',false);
+end
+
+out=run_kw51_probabilistic_matlab(dataSource,outputRoot, ...
+    'Events','all', ...
+    'Validate',true, ...
+    'Plot',true);
+
+%load("out.mat");
+
+% Optional selected accepted passage (chronological number 1,2,3,...):
+for i=1:51
+    plot_kw51_selected_event(out,i,'Visible','off'); %close all;
+end
+
+% Optional manuscript figures:
+plot_kw51_manuscript_figures(out,'Visible','on');
+%
+
+% deliberately strict about independence.
+plot_kw51_independent_kinematic_validation(out,'Visible','on');

@@ -1,0 +1,9 @@
+{
+  "run_bridgewest_joint_physical_v1.m": "50e0ffb682dedc7730e6338c8ce1f904d638b9e5a94ba6681f27e87e808bdcd1",
+  "matlab/bw_shaker_physical_mass_update.m": "90b2adce41bf758f2efa2e5a78d2cd8169eaea4e9dde002561bc6b6303f7b3c2",
+  "config/physical_update.json": "c7cf680298c8a70c4a0a1a9c089e4e172769f636a5f8110907deeb77a10aa1fb",
+  "PHYSICAL_UPDATE_README.md": "11cc3f7a0412c119972766216362c131534b28de1e867637ee8d8a3874ad3ef1",
+  "joint_discrepancy/physical_mass_update_pilot.json": "cdc4b4dd45482b6e4a149cc8a1b24dec634be3cc3369b954cf196a245747740b",
+  "joint_discrepancy/pilot_results/physical_update_run22_run40.csv": "2ab3f6a81b359c417495108c35774f8b538b6a9618e00348a453d78141a1527b",
+  "plot_bridgewest_joint_results.m": "f2770310fc210b148c6ca9f1ad61c63f6cbe94508b2f3091c452a3c97e69cba8"
+}

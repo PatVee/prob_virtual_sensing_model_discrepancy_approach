@@ -1,0 +1,20 @@
+{
+  "package": "BridgeWest_Stabil_v3_2_TwoRailResponseMap",
+  "events_2022": 12,
+  "events_2025": 24,
+  "events_total": 36,
+  "reference_channels": [
+    "A031",
+    "B053"
+  ],
+  "targets": [
+    "A058",
+    "A070",
+    "B031",
+    "B081"
+  ],
+  "strict_selected_hdf5_reader": true,
+  "target_opening_stage": "score_bridgewest_stabil_results only",
+  "additional_target_derived_discrepancy": false,
+  "static_checks": "PASS"
+}

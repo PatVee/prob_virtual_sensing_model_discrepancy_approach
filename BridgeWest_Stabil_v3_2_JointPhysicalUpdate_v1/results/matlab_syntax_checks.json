@@ -1,0 +1,46 @@
+{
+  "parser": "tree-sitter-matlab 1.3.1",
+  "files": [
+    {
+      "file": "main.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/bw_lorenzen_assemble.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/bw_lorenzen_classify.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/bw_lorenzen_compare.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/bw_lorenzen_mesh.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/bw_lorenzen_modes.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/bw_lorenzen_observation_maps.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/check_bridgewest_lorenzen_parity.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/plot_bridgewest_lorenzen.m",
+      "syntax_errors": []
+    },
+    {
+      "file": "matlab/run_bridgewest_lorenzen.m",
+      "syntax_errors": []
+    }
+  ],
+  "runtime_executed": false
+}

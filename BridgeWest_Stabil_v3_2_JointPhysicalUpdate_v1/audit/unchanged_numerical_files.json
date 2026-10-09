@@ -1,0 +1,10 @@
+[
+  "production/matlab/run_bridgewest_stabil_shaker_informed.m",
+  "production/config/prediction_config.json",
+  "config/model.json",
+  "shaker_informed/discrepancy_config.json",
+  "shaker_informed/matlab/bw_stabil_modal_state.m",
+  "shaker_informed/matlab/bw_stabil_sim_shaker.m",
+  "shaker_informed/matlab/bw_stabil_basis_shaker.m",
+  "matlab/bw_lorenzen_assemble.m"
+]

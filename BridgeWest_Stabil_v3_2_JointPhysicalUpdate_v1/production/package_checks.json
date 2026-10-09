@@ -1,0 +1,15 @@
+{
+  "package_version": "v3",
+  "default_passages_2022": 12,
+  "default_passages_2025": 24,
+  "default_passages_total": 36,
+  "inference_structural_channels": ["A031", "B053"],
+  "withheld_targets": ["A058", "A070", "B031", "B081"],
+  "target_histories_preprocessed_during_inference": false,
+  "target_histories_opened_only_after_prediction": true,
+  "target_derived_discrepancy_fitted": false,
+  "shaker_states": 84,
+  "table_5_2_imported_into_bridge_west": false,
+  "full_36_passage_v3_execution_claimed_in_build_environment": false,
+  "reason_full_execution_not_claimed": "Project-backed LT-W ZIP files could be listed but their raw bytes were not materializable in the build session."
+}

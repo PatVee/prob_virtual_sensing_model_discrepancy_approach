@@ -1,0 +1,22 @@
+direction,date,shaker_axes,no_of_shakers,shaker_mode,acc_rms_ms2,f_rms_per_shaker_N,f_max_per_shaker_N,no_of_trials,runs,remarks
+DT,2024-09-18,Bridge Axis B (8.7 m),1,,10,306,433,9,28-36,run 28: different sweepband from 3 to 11 Hz.
+DT,2024-09-18,Bridge Axis B (8.7 m),1,,7.5,230,325,9,37-45,
+DT,2024-09-18,Bridge Axis B (8.7 m),1,,5,153,216,9,46-54,
+CDT,2024-09-17,Bridge Axis C and D (8.7 m),2,synchronized,10,306,433,7,01-07,run 01: different sweepband from 3 to 10 Hz.
+CDT,2024-09-17,Bridge Axis C and D (8.7 m),2,synchronized,7.5,230,325,3,08-10,
+CDT,2024-09-17,Bridge Axis C and D (8.7 m),2,synchronized,5,153,216,3,11-13,
+CDT,2024-09-17,Bridge Axis C and D (8.7 m),2,asynchronous,10,306,433,6,14-19,
+CDT,2024-09-17,Bridge Axis C (8.7 m),1,,7.5,230,325,4,20-23,
+CDT,2024-09-17,Bridge Axis C (8.7 m),1,,5,153,216,4,24-27,
+DT,2025-01-22,Bridge Axis A and B (6 m),2,synchronized,10,306,433,8,55-62,run 55: different sweepband from 6 to 8 Hz.
+DT,2025-01-22,Bridge Axis A and B (6 m),2,synchronized,7.5,230,325,3,63-65,
+DT,2025-01-22,Bridge Axis A and B (6 m),2,synchronized,5,153,216,4,66-69,
+DT,2025-01-22,Bridge Axis A and B (6 m),2,asynchronous,10,306,433,8,70-77,
+DT,2025-01-22,Bridge Axis A and B (6 m),2,asynchronous,7.5,230,325,3,78-80,
+DT,2025-01-22,Bridge Axis A and B (6 m),2,asynchronous,5,153,216,3,81-83,
+CDT,2025-01-23,Bridge Axis C and D (6 m),2,synchronized,10,306,433,8,84-91,
+CDT,2025-01-23,Bridge Axis C and D (6 m),2,synchronized,7.5,230,325,3,92-94,
+CDT,2025-01-23,Bridge Axis C and D (6 m),2,synchronized,5,153,216,3,95-97,
+CDT,2025-01-23,Bridge Axis C and D (6 m),2,asynchronous,10,306,433,10,98-107,
+CDT,2025-01-23,Bridge Axis C and D (6 m),2,asynchronous,7.5,230,325,3,108-110,
+CDT,2025-01-23,Bridge Axis C and D (6 m),2,asynchronous,5,153,216,3,111-113,

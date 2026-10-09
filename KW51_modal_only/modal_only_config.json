@@ -1,0 +1,55 @@
+{
+  "seed": 20260922,
+  "candidate_count": 900,
+  "paired_count": 48,
+  "posterior_draw_count": 256,
+  "load_bounds_kN": [
+    60.0,
+    220.0
+  ],
+  "axle_relative_log_sd": 0.15,
+  "reference_noise_sigma_microstrain": 0.2,
+  "target_noise_sigma_microstrain": 0.2,
+  "displacement_noise_sigma_mm": 0.05,
+  "cov_ridge": 0.05,
+  "likelihood_time_stride": 10,
+  "likelihood_power": 1.0,
+  "interval_z": 1.959963984540054,
+  "translation_sd_mm": 0.0,
+  "translation_sensitivity_mm": [
+    0.0
+  ],
+  "reference_names": [
+    "sgBD1011A",
+    "sgBD1415A",
+    "sgBD2728A"
+  ],
+  "protected_names": [
+    "sgBD1718C",
+    "sgBD2324C",
+    "dABLA",
+    "dABLC"
+  ],
+  "same_station_exclusions": [
+    "sgBD1718A",
+    "sgBD2324AB",
+    "sgBD2324AT"
+  ],
+  "development_events": [
+    "traindata_20191210_170156",
+    "traindata_20191211_080710",
+    "traindata_20191212_080609",
+    "traindata_20191213_080346",
+    "traindata_20191213_170132",
+    "traindata_20191214_081217",
+    "traindata_20191214_171253",
+    "traindata_20191215_081100",
+    "traindata_20191215_171229"
+  ],
+  "method": "KW51 measurement-informed modal discrepancy; fixed blueprint FE and uncertain axle loads",
+  "baseline_stiffness_scale": 1,
+  "frequency_centre_policy": "Unscaled FE frequencies; measured relative frequency variation; measured damping ratios",
+  "kinematic_support_force_weight": 0,
+  "points_per_cycle": 40,
+  "integration_relative_tolerance": 0.02
+}

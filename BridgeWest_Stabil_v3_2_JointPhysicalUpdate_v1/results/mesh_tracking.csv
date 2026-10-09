@@ -1,0 +1,4 @@
+family,base_fe_index,refined_fe_index,base_frequency_Hz,refined_frequency_Hz,frequency_change_percent,common_node_translation_MAC,common_nodes,status
+first bending,3,3,5.211012412025418,5.146106662751422,-1.2455496963356572,0.9996083893090353,741,stable in this refinement
+first torsion,8,6,7.736400372865134,7.684935860412663,-0.6652255567457299,0.9643359480679705,741,stable in this refinement
+second bending candidate,109,144,23.723505111353575,32.28718663003995,36.09787625601739,0.7561239255891313,741,not converged / assignment unstable

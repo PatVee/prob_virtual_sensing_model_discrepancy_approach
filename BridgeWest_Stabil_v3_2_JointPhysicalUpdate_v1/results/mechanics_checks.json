@@ -1,0 +1,29 @@
+{
+  "nodes": 963,
+  "shell_elements": 864,
+  "beam_elements": 188,
+  "free_dofs": 5771,
+  "stiffness_symmetry_error": 2.9903969680884646e-17,
+  "mass_symmetry_error": 8.871576683378717e-19,
+  "translation_mass_kg": [
+    125671.99999999991,
+    125671.99999999991,
+    125671.99999999993
+  ],
+  "nominal_total_mass_kg": 125671.99999999999,
+  "steel_mass_kg": 24427.40696940716,
+  "steel_density_kg_m3": 8004.772271876737,
+  "residual_track_ballast_mass_kg": 100361.39303059284,
+  "walkway_surface_mass_kg": 883.1999999999998,
+  "mass_orthogonality_error": 1.9632308487028648e-14,
+  "max_eigenpair_residual": 2.5233038946728176e-09,
+  "minimum_frequency_Hz": 2.1841914930242297,
+  "highest_computed_frequency_Hz": 69.08163969188475,
+  "bearing_displacement_under_1kN_m": 0.0,
+  "downward_static_peak_m": -9.479538007927417e-06,
+  "vertical_force_balance_N": 1.7628281057113782e-09,
+  "foundation_total_stiffness_N_m": 1400000000.0,
+  "geometry_verified": false,
+  "MATLAB_executed": false,
+  "execution": "Python translation of supplied Stabil element formulation"
+}

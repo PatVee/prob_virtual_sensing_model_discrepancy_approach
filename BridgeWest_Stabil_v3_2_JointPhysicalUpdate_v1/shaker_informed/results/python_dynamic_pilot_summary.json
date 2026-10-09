@@ -1,0 +1,33 @@
+{
+  "pilot_only": "Python mechanics check of modal discrepancy using midspan BA/BB displacement; MATLAB Stabil shell-strain recovery remains the production path.",
+  "speed_kmh": 160.0,
+  "mean_bogie_load_kN": 270.0,
+  "time_step_s": 0.005,
+  "selected_modes": 111,
+  "nominal_baseline": {
+    "mode1_frequency_Hz": 6.535337366339091,
+    "mode2_frequency_Hz": 8.760832155940989,
+    "mode1_damping_ratio": 0.0163384492644782,
+    "mode2_damping_ratio": 0.013768392328554549,
+    "n_mode1_lowforce": 10,
+    "n_mode2_lowforce": 10
+  },
+  "weighted_mean_peak_abs_discrepancy_mm_BA_BB": [
+    0.26417916226135263,
+    0.23484437314801693
+  ],
+  "weighted_mean_rms_discrepancy_mm_BA_BB": [
+    0.07288636652085712,
+    0.0664017894768533
+  ],
+  "maximum_weighted_pointwise_sd_mm_BA_BB": [
+    0.13275297139981618,
+    0.13248699821590665
+  ],
+  "nominal_peak_abs_displacement_mm_BA_BB": [
+    4.175372455336423,
+    4.313926582379771
+  ],
+  "finite": true,
+  "nonzero": true
+}

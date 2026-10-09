@@ -1,0 +1,76 @@
+{
+  "event": "2025_run40",
+  "speed_m_s": 45.37071190401135,
+  "observations": 253,
+  "nominal_load_candidates": 900,
+  "shaker_states": 84,
+  "shaker_effective_state_count": 47.58636193330866,
+  "selected_dynamic_modes": 111,
+  "posterior_ess": 1.0,
+  "posterior_mean_bogie_loads_kN": [
+    182.7816806148256,
+    204.63813200222458,
+    326.69736463192845,
+    195.94167583189486,
+    221.52561267965854,
+    212.49317488501762,
+    213.6182812173035,
+    223.4897214584527
+  ],
+  "iteration_count": 2,
+  "final_max_bogie_change_kN": 4.540197551250458e-12,
+  "targets": [
+    {
+      "target": "A058",
+      "rmse_microstrain": 6.066574834256836,
+      "nrmse": 0.06429789312035605,
+      "correlation": 0.9681776020059193,
+      "coverage": 0.43478260869565216,
+      "predicted_to_measured_range_ratio": 1.1020857439202527,
+      "mean_bias_microstrain": 0.34471421655376905
+    },
+    {
+      "target": "A070",
+      "rmse_microstrain": 8.009389615465683,
+      "nrmse": 0.10056293009119255,
+      "correlation": 0.9280128847841832,
+      "coverage": 0.5059288537549407,
+      "predicted_to_measured_range_ratio": 1.2633110465547532,
+      "mean_bias_microstrain": -0.01545924648725962
+    },
+    {
+      "target": "B031",
+      "rmse_microstrain": 6.043620913159402,
+      "nrmse": 0.08000975105563715,
+      "correlation": 0.9645092241835996,
+      "coverage": 0.5296442687747036,
+      "predicted_to_measured_range_ratio": 1.1528115280941666,
+      "mean_bias_microstrain": -0.7254219055931882
+    },
+    {
+      "target": "B081",
+      "rmse_microstrain": 10.777590341821048,
+      "nrmse": 0.2248047244227008,
+      "correlation": 0.7605255698880763,
+      "coverage": 0.40711462450592883,
+      "predicted_to_measured_range_ratio": 2.5988724709295443,
+      "mean_bias_microstrain": 0.9725357738088272
+    }
+  ],
+  "references": [
+    {
+      "channel": "A031",
+      "nrmse": 0.04687678222596462,
+      "correlation": 0.9854501452493337,
+      "coverage": 0.6758893280632411
+    },
+    {
+      "channel": "B053",
+      "nrmse": 0.04255199612152321,
+      "correlation": 0.9881057080802355,
+      "coverage": 0.5375494071146245
+    }
+  ],
+  "elapsed_s": 3.034615993499756,
+  "caveat": "Run 40 is a development/diagnostic passage previously inspected; these scores are not a sealed prospective validation. Target histories were opened only after the reference-conditioned posterior was frozen in this execution."
+}

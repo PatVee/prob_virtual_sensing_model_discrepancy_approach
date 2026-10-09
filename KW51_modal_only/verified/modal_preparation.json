@@ -1,0 +1,23 @@
+{
+  "window_rows": 1464,
+  "joint_rows": 916,
+  "selected_tracked_modes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "matched_fe_modes": [
+    1,
+    2,
+    3,
+    5,
+    4,
+    6
+  ],
+  "source_sha256": "2f7dd7b6c776cac49c6d959bcfd94bd852aa0c8b64e319ffc938780e40c6dfed",
+  "bank_sha256": "a4cf642fff8909777975d620d2ecfd2c0154dffc708ea32d7a7bde00f89d03eb",
+  "units": "xi percent converted to damping ratio"
+}

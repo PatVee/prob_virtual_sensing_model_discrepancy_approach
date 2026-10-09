@@ -1,0 +1,27 @@
+{
+  "shell_constant_curvature_energy_relative_error": -2.220446049250313e-16,
+  "simply_supported_plate": [
+    {
+      "mesh": 4,
+      "FE_Hz": 37.10078663850773,
+      "analytical_Hz": 37.38036774005006,
+      "error_percent": -0.7479356636793777
+    },
+    {
+      "mesh": 8,
+      "FE_Hz": 37.290715144324324,
+      "analytical_Hz": 37.38036774005006,
+      "error_percent": -0.23983872055298727
+    },
+    {
+      "mesh": 12,
+      "FE_Hz": 37.33860643171696,
+      "analytical_Hz": 37.38036774005006,
+      "error_percent": -0.1117198969884825
+    }
+  ],
+  "cantilever_beam_FE_Hz": 3.6610517990749525,
+  "cantilever_analytical_Hz": 3.66105028752864,
+  "status": "passed",
+  "limitation": "Python element translation checked analytically; not MATLAB runtime parity."
+}

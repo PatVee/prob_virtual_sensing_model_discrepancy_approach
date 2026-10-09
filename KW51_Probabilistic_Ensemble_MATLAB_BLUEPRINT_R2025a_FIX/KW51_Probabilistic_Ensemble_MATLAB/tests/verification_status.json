@@ -1,0 +1,17 @@
+{
+  "native_matlab_executed": false,
+  "reason": "MATLAB/Octave runtime unavailable in package-preparation environment; no native execution claimed.",
+  "boundary_condition": "KW51 blueprint, fixed=0, kxx=0",
+  "bundled_bank_support_coordinates": 2,
+  "bundled_bank_boundary_description": "KW51 blueprint BC: Brussels longitudinally anchored; Leuven longitudinal DOFs free; kxx=0.",
+  "fixture_support_coordinate_count": 2,
+  "python_plot_scripts_compile": true,
+  "production_bank_policy": "Every run owns run_*/fe_bank/model_15.mat; plotting/replay reads that exact file.",
+  "common_translation_prior": "disabled; compatibility setting fixed to 0 mm",
+  "golden_fixtures": [
+    "core_fixture.mat",
+    "fe_fixture.mat",
+    "filter_fixture.mat"
+  ],
+  "fixture_note": "FE fixture expected basis/nominal/discrepancy arrays regenerated for bundled blueprint bank and two Leuven support histories."
+}

@@ -1,0 +1,93 @@
+{
+  "model": "Bridge West joint-discrepancy equivalent physical dynamic-mass update v1",
+  "calibration_evidence": "shaker low-force frequencies + four-station mode shapes only for FE mass-matrix update",
+  "raw": {
+    "mapped_modes": [
+      3,
+      8
+    ],
+    "frequency_Hz": [
+      5.2110124,
+      7.7364004
+    ],
+    "shaker_spatial_MAC": [
+      0.9987467,
+      0.9960794
+    ],
+    "modal_residue_ratio_to_shaker": [
+      0.62551453,
+      1.05655437
+    ]
+  },
+  "physical_update": {
+    "residual_dynamic_participation": 0.58501716,
+    "outer_redistribution_fraction": 0.14232127,
+    "effective_dynamic_residual_mass_kg": 58713.137,
+    "effective_dynamic_total_mass_kg": 84023.7441,
+    "effective_dynamic_mass_fraction_of_nominal": 0.66859558,
+    "mapped_modes_after_update": [
+      5,
+      8
+    ],
+    "frequency_Hz": [
+      6.5352999966,
+      8.7607999894
+    ],
+    "target_frequency_Hz": [
+      6.5353373663,
+      8.7608321559
+    ],
+    "shaker_spatial_MAC": [
+      0.99695424,
+      0.99858077
+    ],
+    "modal_residue_ratio_to_shaker": [
+      0.96945112,
+      1.10850799
+    ],
+    "deterministic_eigenvector_residue_scaling": false
+  },
+  "joint_observation_scale": {
+    "source": "existing joint-model policy: 2022 independent static bogie weighing + A031/B053 only",
+    "median": 0.4387237058,
+    "event_min": 0.3344007273,
+    "event_max": 0.4729160768
+  },
+  "blind_2025_pilots": [
+    {
+      "event": "2025_run22",
+      "inferred_total_kN": 2059.7506875,
+      "static_total_kN": 2197.38587215,
+      "total_error_percent": -6.2635874,
+      "total_q025_kN": 1879.411505,
+      "total_q975_kN": 2236.8336361,
+      "static_inside_95": true,
+      "BA_peak_ratio": 0.92574298,
+      "BA_spatial_nrmse": 0.077542,
+      "BA_correlation": 0.99605879,
+      "BA_profile_coverage": 0.7704918,
+      "BB_peak_ratio": 0.92460344,
+      "BB_spatial_nrmse": 0.07495999,
+      "BB_correlation": 0.9970193,
+      "BB_profile_coverage": 0.7777778
+    },
+    {
+      "event": "2025_run40",
+      "inferred_total_kN": 2302.235458,
+      "static_total_kN": 2197.38587215,
+      "total_error_percent": 4.77156,
+      "total_q025_kN": 2116.9982165,
+      "total_q975_kN": 2469.1182425,
+      "static_inside_95": true,
+      "BA_peak_ratio": 0.87142174,
+      "BA_spatial_nrmse": 0.10964599,
+      "BA_correlation": 0.99899895,
+      "BA_profile_coverage": 0.06557377,
+      "BB_peak_ratio": 0.87710219,
+      "BB_spatial_nrmse": 0.11376237,
+      "BB_correlation": 0.99889672,
+      "BB_profile_coverage": 0.04761905
+    }
+  ],
+  "interpretation": "The mean force-to-response scale improves without deterministic modal-vector scaling, but run40 displacement interval coverage remains poor. The dynamic mass parameters are equivalent shaker-frequency parameters, not a unique literal estimate of ballast mass loss or decoupling."
+}

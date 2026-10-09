@@ -1,0 +1,37 @@
+{
+  "runtime": "GNU Octave 8.4.0; Python/SciPy independent inspection",
+  "events": [
+    {
+      "event_id": "traindata_20191215_081100",
+      "posterior_ESS": 1.0,
+      "max_modal_resolution_relative_error": 0.01090526023668744,
+      "mean_identity_error": 3.552713678800501e-15,
+      "variance_identity_error": 1.3877787807814457e-17,
+      "reference_NRMSE": [
+        0.18002910438075656,
+        0.307908166722141,
+        0.06743434528724951
+      ]
+    },
+    {
+      "event_id": "traindata_20191217_080627",
+      "posterior_ESS": 1.0,
+      "max_modal_resolution_relative_error": 0.017997248315441874,
+      "mean_identity_error": 7.105427357601002e-15,
+      "variance_identity_error": 6.938893903907228e-18,
+      "reference_NRMSE": [
+        0.09554217406121643,
+        0.06815795262533207,
+        0.04283614776115037
+      ]
+    }
+  ],
+  "candidate_count": 900,
+  "paired_count": 48,
+  "posterior_draw_count": 256,
+  "all_original_files_unchanged": true,
+  "native_MATLAB_graphics_executed": false,
+  "unit_checks": "passed",
+  "full_campaign_executed": false,
+  "original_files_checked": 325
+}

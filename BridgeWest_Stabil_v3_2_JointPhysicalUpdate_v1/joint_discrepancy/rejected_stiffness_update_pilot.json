@@ -1,0 +1,32 @@
+{
+  "symmetric_curvature_EI_Nm2": 4694555213.682304,
+  "antisymmetric_curvature_EI_Nm2": 2081375504.9794536,
+  "tracked_FE_indices_after_update": [
+    5,
+    14
+  ],
+  "updated_frequency_Hz": [
+    6.535299999997875,
+    8.76080000000076
+  ],
+  "frequency_error_percent": [
+    -3.2518432391270835e-11,
+    8.681944052568724e-12
+  ],
+  "tracking_MAC": [
+    0.2704373928014349,
+    0.5251900265044093
+  ],
+  "shaker_spatial_MAC": [
+    0.9965773744344637,
+    0.9952242811766411
+  ],
+  "modal_residue_norm": [
+    1.595669611622133e-05,
+    4.624217426205658e-05
+  ],
+  "modal_residue_ratio_to_shaker": [
+    0.4676965629093392,
+    0.9399836964157031
+  ]
+}

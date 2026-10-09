@@ -1,0 +1,67 @@
+{
+  "method": "KW51 blueprint-BC paired-FE discrepancy and Gaussian ensemble conditioning",
+  "seed": 20260922,
+  "candidate_count": 900,
+  "paired_count": 48,
+  "posterior_draw_count": 256,
+  "stiffness_states": [
+    0.8,
+    0.9,
+    1.0
+  ],
+  "pair_nominal_stiffness": 0.9,
+  "load_bounds_kN": [
+    60.0,
+    220.0
+  ],
+  "axle_relative_log_sd": 0.15,
+  "stiffness_log_sd": 0.08,
+  "common_compliance_log_sd": 0.2,
+  "strain_recovery_log_sd": 0.08,
+  "support_force_sd_N": 800000.0,
+  "support_frequency_limit_Hz": 0.5,
+  "speed_relative_sd": 0.01,
+  "entry_sd_s": 0.05,
+  "acceleration_sd_m_s2": 0.02,
+  "reference_noise_sigma_microstrain": 0.2,
+  "target_noise_sigma_microstrain": 0.2,
+  "displacement_noise_sigma_mm": 0.05,
+  "cov_ridge": 0.05,
+  "likelihood_time_stride": 10,
+  "likelihood_power": 1.0,
+  "interval_z": 1.959963984540054,
+  "translation_sd_mm": 0.0,
+  "translation_sensitivity_mm": [
+    0.0
+  ],
+  "translation_frequency_limit_Hz": 0.2,
+  "reference_names": [
+    "sgBD1011A",
+    "sgBD1415A",
+    "sgBD2728A"
+  ],
+  "protected_names": [
+    "sgBD1718C",
+    "sgBD2324C",
+    "dABLA",
+    "dABLC"
+  ],
+  "same_station_exclusions": [
+    "sgBD1718A",
+    "sgBD2324AB",
+    "sgBD2324AT"
+  ],
+  "development_events": [
+    "traindata_20191210_170156",
+    "traindata_20191211_080710",
+    "traindata_20191212_080609",
+    "traindata_20191213_080346",
+    "traindata_20191213_170132",
+    "traindata_20191214_081217",
+    "traindata_20191214_171253",
+    "traindata_20191215_081100",
+    "traindata_20191215_171229"
+  ],
+  "boundary_condition": "blueprint_fixed_0",
+  "support_discrepancy_coordinates": "Leuven_A_x_and_Leuven_C_x"
+}

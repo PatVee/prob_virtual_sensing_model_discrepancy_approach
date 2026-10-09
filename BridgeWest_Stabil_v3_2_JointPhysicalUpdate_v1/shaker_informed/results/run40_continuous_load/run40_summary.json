@@ -1,0 +1,90 @@
+{
+  "event": "2025_run40",
+  "method": "bounded continuous Gaussian posterior for 8 bogie loads + 84-state shaker-informed Stabil discrepancy",
+  "speed_m_s": 45.37071190401135,
+  "shaker_states": 84,
+  "shaker_effective_state_count": 47.58636193330808,
+  "selected_dynamic_modes": 111,
+  "likelihood_samples": 26,
+  "load_bounds_kN": [
+    180,
+    360
+  ],
+  "posterior_mean_bogie_loads_kN": [
+    180.22615677750142,
+    180.835462159247,
+    252.8730064766978,
+    210.44075112051084,
+    215.70801978671847,
+    181.10727660260304,
+    266.45755912941866,
+    181.63169685102966
+  ],
+  "posterior_sd_bogie_loads_kN": [
+    0.21996689099479447,
+    0.8034940886987545,
+    7.7426508889611885,
+    7.042455435144891,
+    7.258307830675729,
+    1.0785161174516718,
+    6.10099343978395,
+    1.5740101340180208
+  ],
+  "load_precision_condition_number": 20.009112496752095,
+  "iteration_count": 20,
+  "final_max_bogie_change_kN": 0.31042339630252513,
+  "targets": [
+    {
+      "target": "A058",
+      "rmse_microstrain": 6.073436719963188,
+      "nrmse": 0.0643706202861465,
+      "correlation": 0.9681233153794696,
+      "coverage": 0.48221343873517786,
+      "predicted_to_measured_range_ratio": 1.039909850073858,
+      "mean_bias_microstrain": 0.7394937170328842
+    },
+    {
+      "target": "A070",
+      "rmse_microstrain": 7.611409662368992,
+      "nrmse": 0.09556604117425456,
+      "correlation": 0.9314435801636319,
+      "coverage": 0.5019762845849802,
+      "predicted_to_measured_range_ratio": 1.2570851979243944,
+      "mean_bias_microstrain": 0.6653561937767454
+    },
+    {
+      "target": "B031",
+      "rmse_microstrain": 5.63373006023352,
+      "nrmse": 0.07458332448556984,
+      "correlation": 0.9682738322304147,
+      "coverage": 0.5968379446640316,
+      "predicted_to_measured_range_ratio": 1.0961224652829007,
+      "mean_bias_microstrain": -0.7291501743493348
+    },
+    {
+      "target": "B081",
+      "rmse_microstrain": 10.161769423295855,
+      "nrmse": 0.21195960343627823,
+      "correlation": 0.7687204236348987,
+      "coverage": 0.43478260869565216,
+      "predicted_to_measured_range_ratio": 2.6659437419067635,
+      "mean_bias_microstrain": 1.4870686840495573
+    }
+  ],
+  "references": [
+    {
+      "channel": "A031",
+      "nrmse": 0.04913479816069161,
+      "correlation": 0.9835912585156688,
+      "coverage": 0.6403162055335968
+    },
+    {
+      "channel": "B053",
+      "nrmse": 0.040480326923898496,
+      "correlation": 0.9888118187401256,
+      "coverage": 0.5533596837944664
+    }
+  ],
+  "elapsed_s": 15.834170818328857,
+  "caveat": "Run 40 was previously inspected and is a development diagnostic, not sealed prospective validation. Withheld target histories enter only the final scoring/plotting stage."
+}

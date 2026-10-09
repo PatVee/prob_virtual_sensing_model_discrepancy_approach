@@ -1,0 +1,10 @@
+{
+  "source": "former reference-bank model_01, fixed=0 kxx=0 parameter=[1,1,1]",
+  "max_abs_differences": {
+    "H0": 0.0,
+    "H2": 0.0,
+    "G": 0.0,
+    "xgrid": 0.0
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,10 @@
+{
+  "modal_residue_scale_bending": 1.598683897236282,
+  "modal_residue_scale_torsion": 0.9464728240679032,
+  "measured_residue_bending": 3.411762536154122e-05,
+  "measured_residue_torsion": 4.919465565028929e-05,
+  "strain_recovery_scale_2022_median": 0.43220352966017705,
+  "scale_event_min": 0.3037578301925159,
+  "scale_event_max": 0.4822208671422078,
+  "policy": "2024 shaker amplitude + 2022 static bogie weighing/A031-B053 only; 2025 static weighing, target strain and PLS not used"
+}

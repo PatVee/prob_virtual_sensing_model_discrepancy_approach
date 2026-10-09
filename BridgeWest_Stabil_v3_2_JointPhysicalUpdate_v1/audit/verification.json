@@ -1,0 +1,49 @@
+{
+  "executed_in": "Python 3 using native MATLAB v7/v7.3 arrays",
+  "matlab_execution_performed": false,
+  "matlab_graphics_execution_performed": false,
+  "full_FE_campaign_rerun_performed": false,
+  "checked_passages": 36,
+  "passages_2022": 12,
+  "passages_2025": 24,
+  "checked_target_histories": 144,
+  "primary_quality_qualified_histories": 132,
+  "maximum_score_recomputation_errors": {
+    "nrmse": 4.996003610813204e-16,
+    "correlation": 1.9984014443252818e-15,
+    "coverage": 4.996003610813204e-16
+  },
+  "rigid_translation_mass_kg": {
+    "x": 125672.00000000001,
+    "y": 125672.00000000001,
+    "z": 125672.00000000003
+  },
+  "imposed_total_mass_kg": 125671.99999999999,
+  "mass_partition_sum_kg": 125672.0,
+  "independent_bridge_mass_established": false,
+  "bridge_mass_scale_applied": 1.0,
+  "all_288_bogie_posterior_means_median_kN": 181.25903383365227,
+  "bogie_means_le182_kN": 164,
+  "campaign_median_load_totals_kN": {
+    "2022": 1647.3462739428621,
+    "2025": 1629.3175419346753
+  },
+  "prediction_files_unchanged": true,
+  "source_records": [
+    {
+      "source": "data/weighing/weights_ICE_TD_2022.csv",
+      "sha256": "123cf59ea781bb002250279eca09b311137eec6ab2ecd9076aa38749b3723c2d",
+      "role": "original independent static campaign weighing"
+    },
+    {
+      "source": "data/weighing/weights_ICE_TD_2025.csv",
+      "sha256": "3832d16bc4011e8224ab73b973783c38b7e286ba89a9ab854d542f494807b0e4",
+      "role": "original independent static campaign weighing"
+    },
+    {
+      "source": "uploaded results/fe_model/bridgewest_lorenzen_fe.mat",
+      "sha256": "e9d0272c253989384ab88bffe61be8c748fb30900206307bba80bed4e7501989",
+      "role": "saved numerical model, not independent physical mass"
+    }
+  ]
+}
