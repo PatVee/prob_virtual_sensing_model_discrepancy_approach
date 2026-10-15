@@ -54,5 +54,3 @@ plot_kw51_modal_only(out,'Visible','on');
 % or: plot_kw51_modal_only('C:\path\modal_YYYYMMDD_HHMMSS','Visible','on');
 ```
 
-For detailed settings and limitations, see the existing README inside each
-case-study folder. **No model or inference scripts were modified by this README.**
